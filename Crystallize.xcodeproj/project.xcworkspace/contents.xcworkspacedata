@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Crystalize.xcodeproj">
+      location = "self:/Users/mkotsollaris/xcode_projects/Crystalize/Crystallize.xcodeproj">
    </FileRef>
 </Workspace>

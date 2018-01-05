@@ -34,17 +34,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		50B6E2C61FFF66FA00B6D5A1 /* Crystalize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Crystalize.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50B6E2C61FFF66FA00B6D5A1 /* Crystallize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Crystallize.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50B6E2C91FFF66FA00B6D5A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50B6E2CB1FFF66FA00B6D5A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		50B6E2CE1FFF66FA00B6D5A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		50B6E2D01FFF66FA00B6D5A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		50B6E2D31FFF66FA00B6D5A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		50B6E2D51FFF66FB00B6D5A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		50B6E2DA1FFF66FB00B6D5A1 /* CrystalizeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrystalizeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50B6E2DA1FFF66FB00B6D5A1 /* CrystallizeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrystallizeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		50B6E2DE1FFF66FB00B6D5A1 /* CrystalizeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrystalizeTests.swift; sourceTree = "<group>"; };
 		50B6E2E01FFF66FB00B6D5A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		50B6E2E51FFF66FB00B6D5A1 /* CrystalizeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrystalizeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50B6E2E51FFF66FB00B6D5A1 /* CrystallizeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrystallizeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		50B6E2E91FFF66FB00B6D5A1 /* CrystalizeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrystalizeUITests.swift; sourceTree = "<group>"; };
 		50B6E2EB1FFF66FB00B6D5A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,7 +77,7 @@
 		50B6E2BD1FFF66FA00B6D5A1 = {
 			isa = PBXGroup;
 			children = (
-				50B6E2C81FFF66FA00B6D5A1 /* Crystalize */,
+				50B6E2C81FFF66FA00B6D5A1 /* Crystallize */,
 				50B6E2DD1FFF66FB00B6D5A1 /* CrystalizeTests */,
 				50B6E2E81FFF66FB00B6D5A1 /* CrystalizeUITests */,
 				50B6E2C71FFF66FA00B6D5A1 /* Products */,
@@ -87,14 +87,14 @@
 		50B6E2C71FFF66FA00B6D5A1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				50B6E2C61FFF66FA00B6D5A1 /* Crystalize.app */,
-				50B6E2DA1FFF66FB00B6D5A1 /* CrystalizeTests.xctest */,
-				50B6E2E51FFF66FB00B6D5A1 /* CrystalizeUITests.xctest */,
+				50B6E2C61FFF66FA00B6D5A1 /* Crystallize.app */,
+				50B6E2DA1FFF66FB00B6D5A1 /* CrystallizeTests.xctest */,
+				50B6E2E51FFF66FB00B6D5A1 /* CrystallizeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		50B6E2C81FFF66FA00B6D5A1 /* Crystalize */ = {
+		50B6E2C81FFF66FA00B6D5A1 /* Crystallize */ = {
 			isa = PBXGroup;
 			children = (
 				50B6E2C91FFF66FA00B6D5A1 /* AppDelegate.swift */,
@@ -104,7 +104,7 @@
 				50B6E2D21FFF66FA00B6D5A1 /* LaunchScreen.storyboard */,
 				50B6E2D51FFF66FB00B6D5A1 /* Info.plist */,
 			);
-			path = Crystalize;
+			path = Crystallize;
 			sourceTree = "<group>";
 		};
 		50B6E2DD1FFF66FB00B6D5A1 /* CrystalizeTests */ = {
@@ -128,9 +128,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		50B6E2C51FFF66FA00B6D5A1 /* Crystalize */ = {
+		50B6E2C51FFF66FA00B6D5A1 /* Crystallize */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 50B6E2EE1FFF66FB00B6D5A1 /* Build configuration list for PBXNativeTarget "Crystalize" */;
+			buildConfigurationList = 50B6E2EE1FFF66FB00B6D5A1 /* Build configuration list for PBXNativeTarget "Crystallize" */;
 			buildPhases = (
 				50B6E2C21FFF66FA00B6D5A1 /* Sources */,
 				50B6E2C31FFF66FA00B6D5A1 /* Frameworks */,
@@ -140,14 +140,14 @@
 			);
 			dependencies = (
 			);
-			name = Crystalize;
+			name = Crystallize;
 			productName = Crystalize;
-			productReference = 50B6E2C61FFF66FA00B6D5A1 /* Crystalize.app */;
+			productReference = 50B6E2C61FFF66FA00B6D5A1 /* Crystallize.app */;
 			productType = "com.apple.product-type.application";
 		};
-		50B6E2D91FFF66FB00B6D5A1 /* CrystalizeTests */ = {
+		50B6E2D91FFF66FB00B6D5A1 /* CrystallizeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 50B6E2F11FFF66FB00B6D5A1 /* Build configuration list for PBXNativeTarget "CrystalizeTests" */;
+			buildConfigurationList = 50B6E2F11FFF66FB00B6D5A1 /* Build configuration list for PBXNativeTarget "CrystallizeTests" */;
 			buildPhases = (
 				50B6E2D61FFF66FB00B6D5A1 /* Sources */,
 				50B6E2D71FFF66FB00B6D5A1 /* Frameworks */,
@@ -158,14 +158,14 @@
 			dependencies = (
 				50B6E2DC1FFF66FB00B6D5A1 /* PBXTargetDependency */,
 			);
-			name = CrystalizeTests;
+			name = CrystallizeTests;
 			productName = CrystalizeTests;
-			productReference = 50B6E2DA1FFF66FB00B6D5A1 /* CrystalizeTests.xctest */;
+			productReference = 50B6E2DA1FFF66FB00B6D5A1 /* CrystallizeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		50B6E2E41FFF66FB00B6D5A1 /* CrystalizeUITests */ = {
+		50B6E2E41FFF66FB00B6D5A1 /* CrystallizeUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 50B6E2F41FFF66FB00B6D5A1 /* Build configuration list for PBXNativeTarget "CrystalizeUITests" */;
+			buildConfigurationList = 50B6E2F41FFF66FB00B6D5A1 /* Build configuration list for PBXNativeTarget "CrystallizeUITests" */;
 			buildPhases = (
 				50B6E2E11FFF66FB00B6D5A1 /* Sources */,
 				50B6E2E21FFF66FB00B6D5A1 /* Frameworks */,
@@ -176,9 +176,9 @@
 			dependencies = (
 				50B6E2E71FFF66FB00B6D5A1 /* PBXTargetDependency */,
 			);
-			name = CrystalizeUITests;
+			name = CrystallizeUITests;
 			productName = CrystalizeUITests;
-			productReference = 50B6E2E51FFF66FB00B6D5A1 /* CrystalizeUITests.xctest */;
+			productReference = 50B6E2E51FFF66FB00B6D5A1 /* CrystallizeUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -207,7 +207,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 50B6E2C11FFF66FA00B6D5A1 /* Build configuration list for PBXProject "Crystalize" */;
+			buildConfigurationList = 50B6E2C11FFF66FA00B6D5A1 /* Build configuration list for PBXProject "Crystallize" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -220,9 +220,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				50B6E2C51FFF66FA00B6D5A1 /* Crystalize */,
-				50B6E2D91FFF66FB00B6D5A1 /* CrystalizeTests */,
-				50B6E2E41FFF66FB00B6D5A1 /* CrystalizeUITests */,
+				50B6E2C51FFF66FA00B6D5A1 /* Crystallize */,
+				50B6E2D91FFF66FB00B6D5A1 /* CrystallizeTests */,
+				50B6E2E41FFF66FB00B6D5A1 /* CrystallizeUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -285,12 +285,12 @@
 /* Begin PBXTargetDependency section */
 		50B6E2DC1FFF66FB00B6D5A1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 50B6E2C51FFF66FA00B6D5A1 /* Crystalize */;
+			target = 50B6E2C51FFF66FA00B6D5A1 /* Crystallize */;
 			targetProxy = 50B6E2DB1FFF66FB00B6D5A1 /* PBXContainerItemProxy */;
 		};
 		50B6E2E71FFF66FB00B6D5A1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 50B6E2C51FFF66FA00B6D5A1 /* Crystalize */;
+			target = 50B6E2C51FFF66FA00B6D5A1 /* Crystallize */;
 			targetProxy = 50B6E2E61FFF66FB00B6D5A1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -462,7 +462,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Crystalize.app/Crystalize";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Crystallize.app/Crystallize";
 			};
 			name = Debug;
 		};
@@ -478,7 +478,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Crystalize.app/Crystalize";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Crystallize.app/Crystallize";
 			};
 			name = Release;
 		};
@@ -515,7 +515,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		50B6E2C11FFF66FA00B6D5A1 /* Build configuration list for PBXProject "Crystalize" */ = {
+		50B6E2C11FFF66FA00B6D5A1 /* Build configuration list for PBXProject "Crystallize" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				50B6E2EC1FFF66FB00B6D5A1 /* Debug */,
@@ -524,7 +524,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		50B6E2EE1FFF66FB00B6D5A1 /* Build configuration list for PBXNativeTarget "Crystalize" */ = {
+		50B6E2EE1FFF66FB00B6D5A1 /* Build configuration list for PBXNativeTarget "Crystallize" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				50B6E2EF1FFF66FB00B6D5A1 /* Debug */,
@@ -533,7 +533,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		50B6E2F11FFF66FB00B6D5A1 /* Build configuration list for PBXNativeTarget "CrystalizeTests" */ = {
+		50B6E2F11FFF66FB00B6D5A1 /* Build configuration list for PBXNativeTarget "CrystallizeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				50B6E2F21FFF66FB00B6D5A1 /* Debug */,
@@ -542,7 +542,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		50B6E2F41FFF66FB00B6D5A1 /* Build configuration list for PBXNativeTarget "CrystalizeUITests" */ = {
+		50B6E2F41FFF66FB00B6D5A1 /* Build configuration list for PBXNativeTarget "CrystallizeUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				50B6E2F51FFF66FB00B6D5A1 /* Debug */,
