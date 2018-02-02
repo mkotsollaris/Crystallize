@@ -14,6 +14,7 @@
 		50B6E2D41FFF66FA00B6D5A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50B6E2D21FFF66FA00B6D5A1 /* LaunchScreen.storyboard */; };
 		50B6E2DF1FFF66FB00B6D5A1 /* CrystalizeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B6E2DE1FFF66FB00B6D5A1 /* CrystalizeTests.swift */; };
 		50B6E2EA1FFF66FB00B6D5A1 /* CrystalizeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B6E2E91FFF66FB00B6D5A1 /* CrystalizeUITests.swift */; };
+		50E8E88520244FD4008F61D3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50E8E88420244FD4008F61D3 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		50B6E2E51FFF66FB00B6D5A1 /* CrystallizeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrystallizeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		50B6E2E91FFF66FB00B6D5A1 /* CrystalizeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrystalizeUITests.swift; sourceTree = "<group>"; };
 		50B6E2EB1FFF66FB00B6D5A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50E8E88420244FD4008F61D3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../../Desktop/pics/Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		50B6E2BD1FFF66FA00B6D5A1 = {
 			isa = PBXGroup;
 			children = (
+				50E8E88420244FD4008F61D3 /* Default-568h@2x.png */,
 				50B6E2C81FFF66FA00B6D5A1 /* Crystallize */,
 				50B6E2DD1FFF66FB00B6D5A1 /* CrystalizeTests */,
 				50B6E2E81FFF66FB00B6D5A1 /* CrystalizeUITests */,
@@ -235,6 +238,7 @@
 				50B6E2D41FFF66FA00B6D5A1 /* LaunchScreen.storyboard in Resources */,
 				50B6E2D11FFF66FA00B6D5A1 /* Assets.xcassets in Resources */,
 				50B6E2CF1FFF66FA00B6D5A1 /* Main.storyboard in Resources */,
+				50E8E88520244FD4008F61D3 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,7 +431,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Crystalize/Info.plist;
+				DEVELOPMENT_TEAM = 2FPUGQEU5C;
+				INFOPLIST_FILE = "$(SRCROOT)/CrystalizeTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mkotsollaris.Crystalize;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -441,7 +447,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Crystalize/Info.plist;
+				DEVELOPMENT_TEAM = 2FPUGQEU5C;
+				INFOPLIST_FILE = "$(SRCROOT)/CrystalizeTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mkotsollaris.Crystalize;
 				PRODUCT_NAME = "$(TARGET_NAME)";
