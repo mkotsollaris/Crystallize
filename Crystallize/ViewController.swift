@@ -1,25 +1,13 @@
-//
-//  ViewController.swift
-//  Crystalize
-//
-//  Created by mkotsollaris on 2018-01-04.
-//  Copyright © 2018 mkotsollaris. All rights reserved.
-//
-
 import UIKit
 
 class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    
+    @IBAction func createNewExpPressed(_ sender: UIButton) {
+        //createNewExpView opens up
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    @IBAction func viewMyExpPressed(_ sender: Any) {
+        //ExperiencesView opens up
     }
-
-
+    
 }
-

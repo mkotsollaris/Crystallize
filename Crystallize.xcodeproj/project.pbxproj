@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5033B79C2026E88000955A8A /* SecondViewControllerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5033B79B2026E88000955A8A /* SecondViewControllerTableViewController.swift */; };
+		50739B1D2032326400321BC6 /* CreateExperience.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50739B1C2032326400321BC6 /* CreateExperience.storyboard */; };
 		50B6E2CA1FFF66FA00B6D5A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B6E2C91FFF66FA00B6D5A1 /* AppDelegate.swift */; };
 		50B6E2CC1FFF66FA00B6D5A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B6E2CB1FFF66FA00B6D5A1 /* ViewController.swift */; };
 		50B6E2CF1FFF66FA00B6D5A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50B6E2CD1FFF66FA00B6D5A1 /* Main.storyboard */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5033B79B2026E88000955A8A /* SecondViewControllerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewControllerTableViewController.swift; sourceTree = "<group>"; };
+		50739B1C2032326400321BC6 /* CreateExperience.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CreateExperience.storyboard; sourceTree = "<group>"; };
 		50B6E2C61FFF66FA00B6D5A1 /* Crystallize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Crystallize.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50B6E2C91FFF66FA00B6D5A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50B6E2CB1FFF66FA00B6D5A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -105,7 +109,9 @@
 				50B6E2CD1FFF66FA00B6D5A1 /* Main.storyboard */,
 				50B6E2D01FFF66FA00B6D5A1 /* Assets.xcassets */,
 				50B6E2D21FFF66FA00B6D5A1 /* LaunchScreen.storyboard */,
+				50739B1C2032326400321BC6 /* CreateExperience.storyboard */,
 				50B6E2D51FFF66FB00B6D5A1 /* Info.plist */,
+				5033B79B2026E88000955A8A /* SecondViewControllerTableViewController.swift */,
 			);
 			path = Crystallize;
 			sourceTree = "<group>";
@@ -239,6 +245,7 @@
 				50B6E2D11FFF66FA00B6D5A1 /* Assets.xcassets in Resources */,
 				50B6E2CF1FFF66FA00B6D5A1 /* Main.storyboard in Resources */,
 				50E8E88520244FD4008F61D3 /* Default-568h@2x.png in Resources */,
+				50739B1D2032326400321BC6 /* CreateExperience.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +272,7 @@
 			files = (
 				50B6E2CC1FFF66FA00B6D5A1 /* ViewController.swift in Sources */,
 				50B6E2CA1FFF66FA00B6D5A1 /* AppDelegate.swift in Sources */,
+				5033B79C2026E88000955A8A /* SecondViewControllerTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
